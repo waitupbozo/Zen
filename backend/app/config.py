@@ -9,6 +9,6 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     AUDIO_FOLDER = "audio"
     # Twilio configuration
-    TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID', 'ACae6111c342c9fa53179d7e909fafa380')
-    TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN', '7ce637f990d53f40bb19c279cbeef692')
+    TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
+    TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
     TWILIO_WHATSAPP_NUMBER = 'whatsapp:+14155238886'

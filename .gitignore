@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/project files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+
+# Database files
+*.db
+
+# Machine learning models and outputs
+ml_models/*.pkl
+
+# Logs
+*.log
